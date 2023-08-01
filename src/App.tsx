@@ -1,6 +1,4 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Box, Image, Heading, Link, Text, Flex } from 'rebass';
+import { Box, Image, Heading, Text, Flex } from 'rebass';
 import './App.css';
 
 function App() {
