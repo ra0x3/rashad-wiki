@@ -3,22 +3,43 @@ import './App.css';
 
 function App() {
   return (
-    <Flex sx={{ flexDirection: 'column' }}>
-      <Flex sx={{}}>
-        <Image src="https://i.imgur.com/XOG1plK.png" width={['100%']} />
-      </Flex>
-      <Flex sx={{}}>
+    <Flex
+      sx={{
+        width: ['100%', 1200],
+        flexDirection: 'column',
+        justifyContent: ['center'],
+        alignItems: ['center'],
+        // border: '1px solid yellow',
+        margin: ['auto'],
+      }}
+    >
+      <Image src="https://i.imgur.com/XOG1plK.png" width={['100%']} />
+      <Flex
+        sx={{
+          flexDirection: ['column', 'row'],
+          // border: '1px solid blue',
+          width: ['100%'],
+        }}
+      >
         <Flex
           sx={{
-            width: 350,
-            height: 700,
-            flexDirection: 'column',
-            paddingLeft: 50,
+            width: ['100%', 350],
+            height: [, 700],
+            flexDirection: ['row', 'column'],
+            paddingLeft: [, 50],
+            justifyContent: ['space-evenly', 'flex-start'],
+            //   border: '1px solid pink',
           }}
         >
           <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
             <a href="https://read.cv/rashad">» CV</a>
-            <Text sx={{ color: '#bababa', marginTop: [1] }}>
+            <Text
+              sx={{
+                color: '#bababa',
+                marginTop: [1],
+                display: ['none', 'block'],
+              }}
+            >
               My resumé or curriculum vitae.
             </Text>
           </Text>
@@ -26,36 +47,58 @@ function App() {
           <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
             <a href="https://linkedin.com/in/rashad-alston">» LinkedIn</a>
             <br />
-            <Text sx={{ color: '#bababa', marginTop: [1] }}>
+            <Text
+              sx={{
+                color: '#bababa',
+                marginTop: [1],
+                display: ['none', 'block'],
+              }}
+            >
               For those unfortunate enought to use LinkedIn.
             </Text>
           </Text>
 
           <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
             <a href="https://github.com/ra0x3">» Github</a>
-            <Text sx={{ color: '#bababa', marginTop: [1] }}>
+            <Text
+              sx={{
+                color: '#bababa',
+                marginTop: [1],
+                display: ['none', 'block'],
+              }}
+            >
               Public code I've written.
             </Text>
           </Text>
 
           <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
             <a href="https://twitter.com/ra0x03">» Twitter</a>
-            <Text sx={{ color: '#bababa', marginTop: [1] }}>
+            <Text
+              sx={{
+                color: '#bababa',
+                marginTop: [1],
+                display: ['none', 'block'],
+              }}
+            >
               My failed attempts to be an influencer.
             </Text>
           </Text>
         </Flex>
         <Flex
           sx={{
-            width: 1200,
-            flexDirection: 'row',
+            width: ['100%', 1200],
+            flexDirection: ['column', 'row'],
+            alignItems: ['center', 'center'],
+            justifyContent: ['center', 'center'],
+            // border: '1px solid green',
           }}
         >
           <Flex
             sx={{
-              width: 700,
+              width: ['90%', 700],
               padding: 20,
               flexDirection: 'column',
+              // border: '1px solid red',
             }}
           >
             <Heading sx={{ fontFamily: 'Nanum Myeongjo', fontSize: [30] }}>
@@ -64,9 +107,6 @@ function App() {
             <Box
               sx={{ height: 1, width: '100%', backgroundColor: '#BABABA' }}
             ></Box>
-            {/* <Flex sx={{ justifyContent: 'space-evenly', marginTop: [25] }}>
-
-            </Flex> */}
             <Text
               sx={{
                 fontFamily: 'Arial',
@@ -179,20 +219,22 @@ function App() {
             sx={{
               // border: '1px solid black',
               flexDirection: 'column',
-              width: 300,
+              width: [350, 300],
               alignItems: 'center',
-              marginTop: 100,
+              marginTop: [, 100],
             }}
           >
             <Flex
               sx={{
                 border: '1px solid #BABABA',
                 marginTop: [30],
+                marginBottom: [30],
                 paddingTop: [15],
                 alignItems: 'center',
                 justifyContent: 'center',
                 flexDirection: 'column',
                 backgroundColor: '#F8F9FA',
+                width: ['100%'],
               }}
             >
               <Text sx={{ fontWeight: 'bold', marginBottom: [10] }}>
@@ -208,7 +250,7 @@ function App() {
               </Text>
               <Flex
                 sx={{
-                  width: [300],
+                  width: [, '100%'],
                   padding: [10],
                   marginTop: [10],
                   flexDirection: 'column',
