@@ -54,7 +54,7 @@ function App() {
                 display: ['none', 'block'],
               }}
             >
-              For those unfortunate enought to use LinkedIn.
+              For those unfortunate enough to use LinkedIn.
             </Text>
           </Text>
 
@@ -116,25 +116,17 @@ function App() {
               }}
             >
               <strong>Rashad Abdullah Alston رشاد عبدالله</strong> (born 11
-              January 1993) Nam porta vulputate vestibulum. Fusce tincidunt
-              pellentesque volutpat. Integer vel turpis diam. Donec eu ultricies
-              nibh, nec sollicitudin urna. Nam sed lorem pellentesque, gravida
-              turpis dapibus, rhoncus elit. Sed tristique laoreet nisi sed
-              viverra. Nulla finibus ex nunc, sed dictum sem finibus ac.
-            </Text>
-            <Text
-              sx={{
-                fontFamily: 'Arial',
-                marginTop: [20],
-                lineHeight: [1.5],
-                fontSize: 14,
-              }}
-            >
-              Nam porta vulputate vestibulum. Fusce tincidunt pellentesque
-              volutpat. Integer vel turpis diam. Donec eu ultricies nibh, nec
-              sollicitudin urna. Nam sed lorem pellentesque, gravida turpis
-              dapibus, rhoncus elit. Sed tristique laoreet nisi sed viverra.
-              Nulla finibus ex nunc, sed dictum sem finibus ac.
+              January 1993) Is an American{' '}
+              <a href="https://en.wikipedia.org/wiki/Software_development">
+                software developer
+              </a>{' '}
+              not known for his work in{' '}
+              <a href="https://en.wikipedia.org/wiki/Network_security">
+                network protection
+              </a>
+              ,{' '}
+              <a href="https://en.wikipedia.org/wiki/Blockchain">blockchain</a>,
+              and space communications.
             </Text>
             <Heading
               sx={{
@@ -156,11 +148,25 @@ function App() {
                 fontSize: 14,
               }}
             >
-              Nam porta vulputate vestibulum. Fusce tincidunt pellentesque
-              volutpat. Integer vel turpis diam. Donec eu ultricies nibh, nec
-              sollicitudin urna. Nam sed lorem pellentesque, gravida turpis
-              dapibus, rhoncus elit. Sed tristique laoreet nisi sed viverra.
-              Nulla finibus ex nunc, sed dictum sem finibus ac.
+              Rashad was borin in{' '}
+              <a href="https://en.wikipedia.org/wiki/Nashville,_North_Carolina">
+                Nashville, North Carolina
+              </a>{' '}
+              on January 11th, 1993 to Brian and Patricia Alston. His father
+              worked various jobs before joining the{' '}
+              <a href="https://en.wikipedia.org/wiki/Firestone_Tire_and_Rubber_Company">
+                Firestone
+              </a>{' '}
+              plant, while his mother worked at
+              <a href="https://en.wikipedia.org/wiki/Sprint_Corporation">
+                {' '}
+                Sprint
+              </a>
+              . Rashad attended{' '}
+              <a href="https://en.wikipedia.org/wiki/North_Carolina_State_University">
+                North Carolina State University
+              </a>{' '}
+              graduating Magna Cum Laude in 2016 with a B.A. in Communication.
             </Text>
             <Heading
               sx={{
@@ -169,7 +175,7 @@ function App() {
                 marginTop: 30,
               }}
             >
-              Software Career
+              Career
             </Heading>
             <Box
               sx={{ height: 1, width: '100%', backgroundColor: '#BABABA' }}
@@ -208,11 +214,10 @@ function App() {
                 fontSize: 14,
               }}
             >
-              Nam porta vulputate vestibulum. Fusce tincidunt pellentesque
-              volutpat. Integer vel turpis diam. Donec eu ultricies nibh, nec
-              sollicitudin urna. Nam sed lorem pellentesque, gravida turpis
-              dapibus, rhoncus elit. Sed tristique laoreet nisi sed viverra.
-              Nulla finibus ex nunc, sed dictum sem finibus ac.
+              In May 2016, Rashad moved from Raleigh North Carolina to Riverside
+              California, eventually settling in Los Angeles California. Rashad
+              is also an avid practitioner of the visual and performing arts -
+              painting and playing piano when he has the time.
             </Text>
           </Flex>
           <Flex
@@ -340,9 +345,7 @@ function App() {
                       width: ['50%'],
                     }}
                   >
-                    <Text sx={{ fontFamily: 'Arial', fontSize: 13 }}>
-                      Family
-                    </Text>
+                    <Text sx={{ fontFamily: 'Arial', fontSize: 13 }}></Text>
                   </Flex>
                 </Flex>
                 <Flex
