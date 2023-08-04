@@ -153,11 +153,12 @@ function App() {
                 Nashville, North Carolina
               </a>{' '}
               on January 11th, 1993 to Brian and Patricia Alston. His father
-              worked various jobs before joining the{' '}
+              worked various jobs before taking a job at the local{' '}
               <a href="https://en.wikipedia.org/wiki/Firestone_Tire_and_Rubber_Company">
                 Firestone
               </a>{' '}
-              plant, while his mother worked at
+              plant, while his mother worked several jobs at the local phone
+              company, most notably
               <a href="https://en.wikipedia.org/wiki/Sprint_Corporation">
                 {' '}
                 Sprint
@@ -166,7 +167,10 @@ function App() {
               <a href="https://en.wikipedia.org/wiki/North_Carolina_State_University">
                 North Carolina State University
               </a>{' '}
-              graduating Magna Cum Laude in 2016 with a B.A. in Communication.
+              graduating Magna Cum Laude in 2016 with a B.A. in Communication,
+              having played varsity{' '}
+              <a href="https://en.wikipedia.org/wiki/Rugby_union">rugby</a> for
+              the university in each year of his undergraduate study.
             </Text>
             <Heading
               sx={{
@@ -188,11 +192,47 @@ function App() {
                 fontSize: 14,
               }}
             >
-              Nam porta vulputate vestibulum. Fusce tincidunt pellentesque
-              volutpat. Integer vel turpis diam. Donec eu ultricies nibh, nec
-              sollicitudin urna. Nam sed lorem pellentesque, gravida turpis
-              dapibus, rhoncus elit. Sed tristique laoreet nisi sed viverra.
-              Nulla finibus ex nunc, sed dictum sem finibus ac.
+              After graduating from North Carolina State University, Rashad went
+              to work software - even though he did not obtain a traditional
+              B.S. in Computer Science. During his last few years of
+              undergraduate study, Rashad moonlighted studying programming and
+              software development.
+              <br />
+              <br /> Rashad's first job involved working in{' '}
+              <a href="https://en.wikipedia.org/wiki/Network_security">
+                network protection
+              </a>{' '}
+              at <a href="https://en.wikipedia.org/wiki/Yahoo!">Yahoo!</a> where
+              he learned some of the difficulties that come with working at such
+              a huge scale. After a few years at Yahoo!, Rashad went on the work
+              in B2B software, helping building cloud-based software for
+              auditors at{' '}
+              <a href="https://www.auditboard.com/about-us/">Auditboard</a>.
+              <br />
+              <br />
+              After a few years in enterprise software, Rashad moved on to his
+              first formal role in the cryptocurrency industry, working as a
+              Senior Software Engineer for{' '}
+              <a href="https://www.opennode.com/">Opennode</a>, where he was
+              responsible for building out the payments infrastructure for the
+              company.
+              <br />
+              <br />
+              Shortly after his stint at Opennode, Rashad went on to work at
+              DuckDuckGo, where he worked on the same type of network protection
+              problems that he was first introduced to at Yahoo!. After a few
+              years at DuckDuckGo, Rashad signed on to work at{' '}
+              <a href="https://www.fuel.network/">Fuel Labs</a> where he worked
+              as a team lead for the company's{' '}
+              <a href="https://wiki.tezosagora.org/build/blockchain-indexers">
+                blockchain indexing
+              </a>{' '}
+              infrastructure. Notably, the{' '}
+              <a href="https://github.com/FuelLabs/fuel-indexer">
+                Fuel Indexer
+              </a>{' '}
+              project is considered by many to be one of the fastest, most
+              flexible blockchain indexers in the industry.
             </Text>
             <Heading
               sx={{
