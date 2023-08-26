@@ -120,13 +120,12 @@ function App() {
               <a href="https://en.wikipedia.org/wiki/Software_development">
                 software developer
               </a>{' '}
-              not known for his work in{' '}
+              not known for his work in ad-tech{' '}
               <a href="https://en.wikipedia.org/wiki/Network_security">
                 network protection
               </a>
-              ,{' '}
-              <a href="https://en.wikipedia.org/wiki/Blockchain">blockchain</a>,
-              and space communications.
+              , and {' '}
+              <a href="https://en.wikipedia.org/wiki/Blockchain">blockchain</a>.
             </Text>
             <Heading
               sx={{
