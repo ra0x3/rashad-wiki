@@ -192,7 +192,7 @@ function App() {
               }}
             >
               After graduating from North Carolina State University, Rashad went
-              to work software - even though he did not obtain a traditional
+              to work in software - even though he did not obtain a traditional
               B.S. in Computer Science. During his last few years of
               undergraduate study, Rashad moonlighted studying programming and
               software development.
