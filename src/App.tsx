@@ -124,7 +124,7 @@ function App() {
               <a href="https://en.wikipedia.org/wiki/Network_security">
                 network protection
               </a>
-              , and {' '}
+              , and{' '}
               <a href="https://en.wikipedia.org/wiki/Blockchain">blockchain</a>.
             </Text>
             <Heading
@@ -232,6 +232,11 @@ function App() {
               </a>{' '}
               project is considered by many to be one of the fastest, most
               flexible blockchain indexers in the industry.
+              <br />
+              <br />
+              In late 2023, Rashad left DuckDuckGo and Fuel Labs in order to
+              join <a href="https://helpar.io/">HelpAR</a> as Chief Technology
+              Officer (CTO), where he works to this day.
             </Text>
             <Heading
               sx={{
