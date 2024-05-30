@@ -147,7 +147,7 @@ function App() {
                 fontSize: 14,
               }}
             >
-              Rashad was borin in{' '}
+              Rashad was born in{' '}
               <a href="https://en.wikipedia.org/wiki/Nashville,_North_Carolina">
                 Nashville, North Carolina
               </a>{' '}
