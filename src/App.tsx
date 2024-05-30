@@ -1,6 +1,19 @@
 import { Box, Image, Heading, Text, Flex } from 'rebass';
 import './App.css';
 
+function calculateAge() {
+  const birthDate = new Date('01-11-1993');
+  const today = new Date();
+  let age = today.getFullYear() - birthDate.getFullYear();
+  const monthDifference = today.getMonth() - birthDate.getMonth();
+  const dayDifference = today.getDate() - birthDate.getDate();
+  if (monthDifference < 0 || (monthDifference === 0 && dayDifference < 0)) {
+    age--;
+  }
+
+  return age;
+}
+
 function App() {
   return (
     <Flex
@@ -290,9 +303,9 @@ function App() {
                 Rashad Alston
               </Text>
               <Image
-                src="https://avatars.githubusercontent.com/u/17253182?v=4"
+                src="https://i.imgur.com/9X0kDn3.jpeg"
                 width={[200]}
-                height={[200]}
+                height={[300]}
               />
               <Text sx={{ fontFamily: 'Arial', fontSize: 12, marginTop: [1] }}>
                 Rashad being a guy (2023).
@@ -328,8 +341,8 @@ function App() {
                     }}
                   >
                     <Text sx={{ fontFamily: 'Arial', fontSize: 13 }}>
-                      Rashad Abdullah Alston <br /> 11 January 1993 <br /> (age
-                      30) <br /> Nashville, North Carolina, U.S.
+                      Rashad Abdullah Alston <br /> 11 January 1993 <br /> (age{' '}
+                      {calculateAge()}) <br /> Nashville, North Carolina, U.S.
                     </Text>
                   </Flex>
                 </Flex>
