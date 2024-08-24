@@ -1,7 +1,12 @@
-import { Box, Image, Heading, Text, Flex } from 'rebass';
-import './App.css';
+import { Box, Image, Heading, Text, Flex, Button } from 'rebass';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom';
 
-function calculateAge() {
+const calculateAge = () => {
   const birthDate = new Date('01-11-1993');
   const today = new Date();
   let age = today.getFullYear() - birthDate.getFullYear();
@@ -12,9 +17,9 @@ function calculateAge() {
   }
 
   return age;
-}
+};
 
-function App() {
+const IndexView: React.FC = (): React.JSX.Element => {
   return (
     <Flex
       sx={{
@@ -30,7 +35,6 @@ function App() {
       <Flex
         sx={{
           flexDirection: ['column', 'row'],
-          // border: '1px solid blue',
           width: ['100%'],
         }}
       >
@@ -44,19 +48,6 @@ function App() {
             //   border: '1px solid pink',
           }}
         >
-          <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
-            <a href="https://read.cv/rashad">» CV</a>
-            <Text
-              sx={{
-                color: '#bababa',
-                marginTop: [1],
-                display: ['none', 'block'],
-              }}
-            >
-              My resumé or curriculum vitae.
-            </Text>
-          </Text>
-
           <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
             <a href="https://linkedin.com/in/rashad-alston">» LinkedIn</a>
             <br />
@@ -85,19 +76,6 @@ function App() {
           </Text>
 
           <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
-            <a href="https://twitter.com/ra0x03">» Twitter</a>
-            <Text
-              sx={{
-                color: '#bababa',
-                marginTop: [1],
-                display: ['none', 'block'],
-              }}
-            >
-              My failed attempts to be an influencer.
-            </Text>
-          </Text>
-
-          <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
             <a href="https://calendly.com/ra0x3/meet-n-greet">» Calendly</a>
 
             <Text
@@ -108,6 +86,18 @@ function App() {
               }}
             >
               Book some time with me
+            </Text>
+          </Text>
+          <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
+            <a href="/blog">» Blog</a>
+            <Text
+              sx={{
+                color: '#bababa',
+                marginTop: [1],
+                display: ['none', 'block'],
+              }}
+            >
+              Read my conversations with ChatGPT
             </Text>
           </Text>
         </Flex>
@@ -479,6 +469,109 @@ function App() {
       </Flex>
     </Flex>
   );
+};
+
+const BlogView: React.FC = (): React.JSX.Element => {
+  const data = [
+    {
+      title: 'Human ears vs Shazam',
+      description:
+        "Why can I recognize distant concert songs but Shazam can't?",
+      readTime: '3 min',
+      link: 'https://chatgpt.com/share/0147aa5e-f79e-4f41-ae41-b6db7702305e',
+    },
+  ];
+
+  return (
+    <Flex
+      sx={{
+        position: 'fixed',
+        width: '100vw',
+        height: '100vh',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        padding: [4, 20],
+      }}
+    >
+      <Flex
+        sx={{
+          width: ['100%', '50%'],
+          height: '100%',
+          padding: [2, 20],
+          flexDirection: 'column',
+          alignItems: 'center',
+          overflowY: 'auto',
+        }}
+      >
+        <Heading
+          sx={{ textAlign: 'center', fontFamily: 'Arial', marginBottom: [10] }}
+        >
+          Conversations with ChatGPT
+        </Heading>
+        {data.map((item) => {
+          return (
+            <Flex
+              sx={{
+                marginTop: 10,
+                width: '100%',
+                border: '1px solid #cbcbcb',
+                padding: [4, 20],
+                flexDirection: 'column',
+              }}
+            >
+              <Heading sx={{ fontFamily: 'Arial' }}>{item.title}</Heading>
+              <Text
+                sx={{
+                  fontFamily: 'Arial',
+                  fontSize: [14],
+                  marginTop: [2],
+                  marginBottom: [2],
+                }}
+              >
+                {item.description}
+              </Text>
+              <Button
+                onClick={() => {
+                  window.open(item.link, '_blank');
+                }}
+                sx={{
+                  backgroundColor: 'black',
+                  color: 'white',
+                  fontFamily: 'Arial',
+                  width: '50%',
+                  margin: 'auto',
+                  '&:hover': {
+                    cursor: 'pointer',
+                    backgroundColor: 'white',
+                    color: 'black',
+                    border: '1px solid black',
+                  },
+                }}
+              >
+                {item.readTime} read
+              </Button>
+            </Flex>
+          );
+        })}
+      </Flex>
+    </Flex>
+  );
+};
+
+interface AppRouterProps {
+  children?: React.ReactNode;
 }
 
-export default App;
+const AppRouter = ({ children }: AppRouterProps): React.JSX.Element => {
+  return (
+    <Router>
+      {children}
+      <Routes>
+        <Route path="/" element={<IndexView />} />
+        <Route path="/blog" element={<BlogView />} />
+      </Routes>
+    </Router>
+  );
+};
+
+export default AppRouter;
