@@ -474,11 +474,11 @@ const IndexView: React.FC = (): React.JSX.Element => {
 const BlogView: React.FC = (): React.JSX.Element => {
   const data = [
     {
-      title: 'Human ears vs Shazam',
+      title: "Shazam Can't Ear It Like I Can",
       description:
         "Why can I recognize distant concert songs but Shazam can't?",
       readTime: '3 min',
-      link: 'https://chatgpt.com/share/0147aa5e-f79e-4f41-ae41-b6db7702305e',
+      link: 'https://chatgpt.com/share/97d0105a-7823-4cf9-81e2-8a140de6ee58',
     },
   ];
 
