@@ -474,11 +474,17 @@ const IndexView: React.FC = (): React.JSX.Element => {
 const BlogView: React.FC = (): React.JSX.Element => {
   const data = [
     {
-      title: "Shazam Can't Ear It Like I Can",
+      title: "ra0x1: Shazam Can't Ear It Like I Can",
       description:
         "Why can I recognize distant concert songs but Shazam can't?",
       readTime: '3 min',
       link: 'https://chatgpt.com/share/97d0105a-7823-4cf9-81e2-8a140de6ee58',
+    },
+    {
+      title: 'ra0x2: So You Think You Can Interview?',
+      description: 'Contextualizing the notorious software engineer interview',
+      readTime: '2 min',
+      link: 'https://chatgpt.com/share/e2dc9cbd-bd2b-448b-975e-27c9bd2b10e4',
     },
   ];
 
