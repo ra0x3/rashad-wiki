@@ -342,7 +342,7 @@ const IndexView: React.FC = (): React.JSX.Element => {
                   >
                     <Text sx={{ fontFamily: 'Arial', fontSize: 13 }}>
                       Rashad Abdullah Alston <br /> 11 January 1993 <br /> (age{' '}
-                      {calculateAge()}) <br /> Nashville, North Carolina, U.S.
+                      {calculateAge() || 31}) <br /> Nashville, North Carolina, U.S.
                     </Text>
                   </Flex>
                 </Flex>
