@@ -402,7 +402,15 @@ const IndexView: React.FC = (): React.JSX.Element => {
                       width: ['50%'],
                     }}
                   >
-                    <Text sx={{ fontFamily: 'Arial', fontSize: 13 }}></Text>
+                    <Text sx={{ fontFamily: 'Arial', fontSize: 13 }}>
+                      <a href="https://www.brynmawr.edu/inside/people/alex-alston">
+                        Alexander Alston
+                      </a>
+                      <br />
+                      <a href="https://www.linkedin.com/in/aerialalston/">
+                        Aerial Alston
+                      </a>
+                    </Text>
                   </Flex>
                 </Flex>
                 <Flex
