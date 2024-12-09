@@ -89,6 +89,18 @@ const IndexView: React.FC = (): React.JSX.Element => {
             </Text>
           </Text>
           <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
+            <a href="https://libx.stream">» LibX</a>
+            <Text
+              sx={{
+                color: '#bababa',
+                marginTop: [1],
+                display: ['none', 'block'],
+              }}
+            >
+              A tool I built to export your Spotify library.
+            </Text>
+          </Text>
+          <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
             <a href="/blog">» Blog</a>
             <Text
               sx={{
@@ -342,7 +354,8 @@ const IndexView: React.FC = (): React.JSX.Element => {
                   >
                     <Text sx={{ fontFamily: 'Arial', fontSize: 13 }}>
                       Rashad Abdullah Alston <br /> 11 January 1993 <br /> (age{' '}
-                      {calculateAge() || 31}) <br /> Nashville, North Carolina, U.S.
+                      {calculateAge() || 31}) <br /> Nashville, North Carolina,
+                      U.S.
                     </Text>
                   </Flex>
                 </Flex>
