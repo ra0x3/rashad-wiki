@@ -74,7 +74,6 @@ const IndexView: React.FC = (): React.JSX.Element => {
               Public code I've written.
             </Text>
           </Text>
-
           <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
             <a href="https://calendly.com/ra0x3/meet-n-greet">» Calendly</a>
 
@@ -86,6 +85,19 @@ const IndexView: React.FC = (): React.JSX.Element => {
               }}
             >
               Book some time with me
+            </Text>
+          </Text>
+
+          <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
+            <a href="https://linktr.ee/rashad.wiki">» Linktree</a>
+            <Text
+              sx={{
+                color: '#bababa',
+                marginTop: [1],
+                display: ['none', 'block'],
+              }}
+            >
+              Linktree
             </Text>
           </Text>
           <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
