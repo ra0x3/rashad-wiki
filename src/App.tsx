@@ -6,6 +6,8 @@ import {
   Navigate,
 } from 'react-router-dom';
 
+const MY_AGE = 32;
+
 const calculateAge = () => {
   const birthDate = new Date('01-11-1993');
   const today = new Date();
@@ -88,6 +90,7 @@ const IndexView: React.FC = (): React.JSX.Element => {
             </Text>
           </Text>
 
+          {/*
           <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
             <a href="https://linktr.ee/rashad.wiki">» Linktree</a>
             <Text
@@ -100,6 +103,7 @@ const IndexView: React.FC = (): React.JSX.Element => {
               Linktree
             </Text>
           </Text>
+
           <Text sx={{ fontFamily: 'Arial', fontSize: 13, marginTop: [20] }}>
             <a href="https://libx.stream">» LibX</a>
             <Text
@@ -123,7 +127,7 @@ const IndexView: React.FC = (): React.JSX.Element => {
             >
               Read my conversations with ChatGPT
             </Text>
-          </Text>
+            </Text>*/}
         </Flex>
         <Flex
           sx={{
@@ -298,7 +302,7 @@ const IndexView: React.FC = (): React.JSX.Element => {
               In May 2016, Rashad moved from Raleigh North Carolina to Riverside
               California, eventually settling in Los Angeles California. Rashad
               is also an avid practitioner of the visual and performing arts -
-              painting and playing piano when he has the time.
+              painting and playing guitar when he has the time.
             </Text>
           </Flex>
           <Flex
@@ -327,12 +331,12 @@ const IndexView: React.FC = (): React.JSX.Element => {
                 Rashad Alston
               </Text>
               <Image
-                src="https://i.imgur.com/9X0kDn3.jpeg"
+                src="https://i.imgur.com/bUPydVj.jpeg"
                 width={[200]}
                 height={[300]}
               />
               <Text sx={{ fontFamily: 'Arial', fontSize: 12, marginTop: [1] }}>
-                Rashad being a guy (2023).
+                Rashad being a guy (2025).
               </Text>
               <Flex
                 sx={{
@@ -366,8 +370,8 @@ const IndexView: React.FC = (): React.JSX.Element => {
                   >
                     <Text sx={{ fontFamily: 'Arial', fontSize: 13 }}>
                       Rashad Abdullah Alston <br /> 11 January 1993 <br /> (age{' '}
-                      {calculateAge() || 31}) <br /> Nashville, North Carolina,
-                      U.S.
+                      {calculateAge() || MY_AGE}) <br /> Nashville, North
+                      Carolina, U.S.
                     </Text>
                   </Flex>
                 </Flex>
