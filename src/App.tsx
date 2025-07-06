@@ -165,12 +165,15 @@ const IndexView: React.FC = (): React.JSX.Element => {
               <a href="https://en.wikipedia.org/wiki/Software_development">
                 software developer
               </a>{' '}
-              not known for his work in ad-tech{' '}
+              known for his work in ad-tech{' '}
               <a href="https://en.wikipedia.org/wiki/Network_security">
                 network protection
               </a>
               , and{' '}
-              <a href="https://en.wikipedia.org/wiki/Blockchain">blockchain</a>.
+              <a href="https://simple.wikipedia.org/wiki/Cybersecurity">
+                cybersecurity
+              </a>
+              .
             </Text>
             <Heading
               sx={{
@@ -247,25 +250,19 @@ const IndexView: React.FC = (): React.JSX.Element => {
                 network protection
               </a>{' '}
               at <a href="https://en.wikipedia.org/wiki/Yahoo!">Yahoo!</a> where
-              he learned some of the difficulties that come with working at such
-              a huge scale. After a few years at Yahoo!, Rashad went on the work
-              in B2B software, helping building cloud-based software for
-              auditors at{' '}
+              he gained firsthand experience tackling abuse and adversarial
+              behavior at massive scale. After several years at Yahoo!, he
+              transitioned into enterprise software, helping build tools for
+              internal auditors at{' '}
               <a href="https://www.auditboard.com/about-us/">Auditboard</a>.
               <br />
               <br />
-              After a few years in enterprise software, Rashad moved on to his
-              first formal role in the cryptocurrency industry, working as a
-              Senior Software Engineer for{' '}
-              <a href="https://www.opennode.com/">Opennode</a>, where he was
-              responsible for building out the payments infrastructure for the
-              company.
-              <br />
-              <br />
-              Shortly after his stint at Opennode, Rashad went on to work at
-              DuckDuckGo, where he worked on the same type of network protection
-              problems that he was first introduced to at Yahoo!. After a few
-              years at DuckDuckGo, Rashad signed on to work at{' '}
+              Shortly after his stint at Auditboard, Rashad went on to work at{' '}
+              <a href="https://en.wikipedia.org/wiki/DuckDuckGo">DuckDuckGo</a>,
+              where he worked on the same type of network protection problems
+              that he was first introduced to at Yahoo! with a greater emphasis
+              on user privacy and ethical data stewardship. After a few years at
+              DuckDuckGo, Rashad signed on to work at{' '}
               <a href="https://www.fuel.network/">Fuel Labs</a> where he worked
               as a team lead for the company's{' '}
               <a href="https://wiki.tezosagora.org/build/blockchain-indexers">
@@ -278,6 +275,12 @@ const IndexView: React.FC = (): React.JSX.Element => {
               project is considered by many to be one of the fastest, most
               flexible blockchain indexers in the industry.
               <br />
+              <br />
+              In 2024, Rashad joined <a href="https://soteri.io/">Soteri</a>, a
+              cybersecurity startup focused on enterprise-grade threat detection
+              and automated defense, where he continues to develop
+              infrastructure for securing modern networks against increasingly
+              sophisticated threats.
             </Text>
             <Heading
               sx={{
@@ -402,9 +405,12 @@ const IndexView: React.FC = (): React.JSX.Element => {
                       <a href="https://en.wikipedia.org/wiki/Software_engineering">
                         Software Engineer
                       </a>{' '}
-                      <br />
                       <br />{' '}
-                      <a href="https://en.wikipedia.org/wiki/Artist">Artist</a>
+                      <a href="https://en.wikipedia.org/wiki/Artist">Artist</a>{' '}
+                      <br />{' '}
+                      <a href="https://en.wikipedia.org/wiki/Musician">
+                        Musician
+                      </a>{' '}
                     </Text>
                   </Flex>
                 </Flex>
