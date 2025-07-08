@@ -205,17 +205,16 @@ const IndexView: React.FC = (): React.JSX.Element => {
                 Firestone
               </a>{' '}
               plant, while his mother worked several jobs at the local phone
-              company, most notably
+              company, most notably{' '}
               <a href="https://en.wikipedia.org/wiki/Sprint_Corporation">
-                {' '}
                 Sprint
               </a>
               . Rashad attended{' '}
               <a href="https://en.wikipedia.org/wiki/North_Carolina_State_University">
                 North Carolina State University
               </a>{' '}
-              graduating Magna Cum Laude in 2016 with a B.A. in Communication,
-              having played varsity{' '}
+              graduating Magna Cum Laude in 2016 with a B.A., having played
+              varsity{' '}
               <a href="https://en.wikipedia.org/wiki/Rugby_union">rugby</a> for
               the university in each year of his undergraduate study.
             </Text>
