@@ -173,7 +173,9 @@ const IndexView: React.FC = (): React.JSX.Element => {
               <a href="https://simple.wikipedia.org/wiki/Cybersecurity">
                 cybersecurity
               </a>
-              .
+              . In 2024 Rashad founded{' '}
+              <a href="https://espertech.io">EsperTech</a>, a home security and
+              digital privacy startup serving the Los Angeles area.
             </Text>
             <Heading
               sx={{
@@ -275,11 +277,29 @@ const IndexView: React.FC = (): React.JSX.Element => {
               flexible blockchain indexers in the industry.
               <br />
               <br />
-              In 2024, Rashad joined <a href="https://soteri.io/">Soteri</a>, a
-              cybersecurity startup focused on enterprise-grade threat detection
-              and automated defense, where he continues to develop
-              infrastructure for securing modern networks against increasingly
-              sophisticated threats.
+              Most recently, Rashad joined{' '}
+              <a href="https://soteri.io/">Soteri</a>, a cybersecurity startup
+              focused on enterprise-grade threat detection and automated
+              defense, where he continues to develop infrastructure for securing
+              modern networks against increasingly sophisticated threats.
+            </Text>
+            <Text
+              sx={{
+                fontFamily: 'Arial',
+                marginTop: [20],
+                lineHeight: [1.5],
+                fontSize: 14,
+              }}
+            >
+              In 2024, Rashad founded{' '}
+              <a href={'https://espertech.io'}>EsperTech</a>, a home security
+              and digital privacy consultancy startup that helps{' '}
+              <a
+                href={'https://en.wikipedia.org/wiki/High-net-worth_individual'}
+              >
+                HNI
+              </a>
+              s protect their digital footprint at home and abroad
             </Text>
             <Heading
               sx={{
