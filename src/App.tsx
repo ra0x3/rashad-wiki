@@ -173,9 +173,11 @@ const IndexView: React.FC = (): React.JSX.Element => {
               <a href="https://simple.wikipedia.org/wiki/Cybersecurity">
                 cybersecurity
               </a>
-              . In 2024 Rashad founded{' '}
-              <a href="https://espertech.io">EsperTech</a>, a home security and
-              digital privacy startup serving the Los Angeles area.
+              . In 2023 Rashad founded{' '}
+              <a href="https://stonehedgelabs.com">Stone Hedge Labs</a>, an
+              innovation lab and umbrella company dedicated to developing a wide
+              range of projects— from cutting-edge technical solutions to
+              creative non-technical ventures.
             </Text>
             <Heading
               sx={{
@@ -277,11 +279,15 @@ const IndexView: React.FC = (): React.JSX.Element => {
               flexible blockchain indexers in the industry.
               <br />
               <br />
-              Most recently, Rashad joined{' '}
-              <a href="https://soteri.io/">Soteri</a>, a cybersecurity startup
-              focused on enterprise-grade threat detection and automated
-              defense, where he continues to develop infrastructure for securing
-              modern networks against increasingly sophisticated threats.
+              Most recently, Rashad has focused full-time on{' '}
+              <a href="https://stonehedgelabs.com">Stone Hedge Labs</a>, where
+              he and his team have incubated several projects, including{' '}
+              <a href="https://sysg.dev">SystemG</a>, an open-source process
+              manager designed to simplify and streamline development workflows,
+              and <a href="https://espertech.io">EsperTech</a>, a boutique
+              cybersecurity concierge service that provides high-net-worth
+              individuals and executives with tailored digital-security
+              solutions—from secure travel devices to digital footprint mapping.
             </Text>
             <Text
               sx={{
