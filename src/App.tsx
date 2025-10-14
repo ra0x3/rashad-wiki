@@ -173,8 +173,8 @@ const IndexView: React.FC = (): React.JSX.Element => {
               <a href="https://simple.wikipedia.org/wiki/Cybersecurity">
                 cybersecurity
               </a>
-              . In 2023 Rashad founded{' '}
-              <a href="https://stonehedgelabs.com">Stone Hedge Labs</a>, an
+              . In 2024 Rashad founded{' '}
+              <a href="https://stonehedgelabs.com">Stonehedge Labs</a>, an
               innovation lab and umbrella company dedicated to developing a wide
               range of projects— from cutting-edge technical solutions to
               creative non-technical ventures.
@@ -280,7 +280,7 @@ const IndexView: React.FC = (): React.JSX.Element => {
               <br />
               <br />
               Most recently, Rashad has focused full-time on{' '}
-              <a href="https://stonehedgelabs.com">Stone Hedge Labs</a>, where
+              <a href="https://stonehedgelabs.com">Stonehedge Labs</a>, where
               he and his team have incubated several projects, including{' '}
               <a href="https://sysg.dev">SystemG</a>, an open-source process
               manager designed to simplify and streamline development workflows,
