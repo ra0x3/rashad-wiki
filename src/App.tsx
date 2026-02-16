@@ -280,8 +280,8 @@ const IndexView: React.FC = (): React.JSX.Element => {
               <br />
               <br />
               Most recently, Rashad has focused full-time on{' '}
-              <a href="https://stonehedgelabs.com">Stonehedge Labs</a>, where
-              he and his team have incubated several projects, including{' '}
+              <a href="https://stonehedgelabs.com">Stonehedge Labs</a>, where he
+              and his team have incubated several projects, including{' '}
               <a href="https://sysg.dev">SystemG</a>, an open-source process
               manager designed to simplify and streamline development workflows,
               and <a href="https://espertech.io">EsperTech</a>, a boutique
@@ -297,15 +297,13 @@ const IndexView: React.FC = (): React.JSX.Element => {
                 fontSize: 14,
               }}
             >
-              In 2024, Rashad founded{' '}
-              <a href={'https://espertech.io'}>EsperTech</a>, a home security
-              and digital privacy consultancy startup that helps{' '}
-              <a
-                href={'https://en.wikipedia.org/wiki/High-net-worth_individual'}
-              >
-                HNI
+              In late 2025, through Stonehedge Labs, Rashad and partners
+              released the sports app{' '}
+              <a href={'https://arbi.gg'} target="_blank">
+                Arbitration
               </a>
-              s protect their digital footprint at home and abroad
+              , a leading sports platform for real-time scores, live reactions,
+              and premium sports content.
             </Text>
             <Heading
               sx={{
