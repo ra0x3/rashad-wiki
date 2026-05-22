@@ -284,10 +284,12 @@ const IndexView: React.FC = (): React.JSX.Element => {
               and his team have incubated several projects, including{' '}
               <a href="https://sysg.dev">SystemG</a>, an open-source process
               manager designed to simplify and streamline development workflows,
-              and <a href="https://espertech.io">EsperTech</a>, a boutique
-              cybersecurity concierge service that provides high-net-worth
-              individuals and executives with tailored digital-security
-              solutions—from secure travel devices to digital footprint mapping.
+              and the sports app{' '}
+              <a href="https://arbi.gg" target="_blank">
+                Arbitration
+              </a>
+              , a leading sports platform for real-time scores, live reactions,
+              and premium sports content.
             </Text>
             <Text
               sx={{
@@ -297,13 +299,25 @@ const IndexView: React.FC = (): React.JSX.Element => {
                 fontSize: 14,
               }}
             >
-              In late 2025, through Stonehedge Labs, Rashad and partners
-              released the sports app{' '}
-              <a href={'https://arbi.gg'} target="_blank">
-                Arbitration
+              In July 2025, Rashad founded{' '}
+              <a href="https://esperr.com" target="_blank">
+                Esper
               </a>
-              , a leading sports platform for real-time scores, live reactions,
-              and premium sports content.
+              , a programmable traffic protection platform headquartered in Los
+              Angeles, California. Esper helps teams detect and stop harmful
+              traffic using the business context generic bot tools miss, with
+              custom abuse logic across users, accounts, API keys, sessions,
+              resources, and behavior over time.
+              <br />
+              <br />
+              In 2024, Rashad founded the{' '}
+              <a href="https://eljff.org" target="_blank">
+                Ether Lean Josephine Family Foundation (ELJFF)
+              </a>
+              , where he serves as President. ELJFF is a North Carolina
+              501(c)(3) public charity helping youth discover careers, schools,
+              colleges, and opportunities through career exposure, mentorship,
+              enrichment, and support.
             </Text>
             <Heading
               sx={{
