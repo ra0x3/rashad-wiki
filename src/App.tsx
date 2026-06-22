@@ -279,17 +279,26 @@ const IndexView: React.FC = (): React.JSX.Element => {
               flexible blockchain indexers in the industry.
               <br />
               <br />
-              Most recently, Rashad has focused full-time on{' '}
-              <a href="https://stonehedgelabs.com">Stonehedge Labs</a>, where he
-              and his team have incubated several projects, including{' '}
-              <a href="https://sysg.dev">SystemG</a>, an open-source process
-              manager designed to simplify and streamline development workflows,
-              and the sports app{' '}
+              Most recently, Rashad founded{' '}
+              <a href="https://stonehedgelabs.com">Stonehedge Labs</a>, a
+              software venture studio incubating technical tools, consumer
+              products, and experimental software projects. Through Stonehedge
+              Labs, he and his team have built projects including{' '}
+              <a href="https://esperr.com" target="_blank">
+                Esper
+              </a>
+              , a programmable traffic protection platform;{' '}
               <a href="https://arbi.gg" target="_blank">
                 Arbitration
               </a>
-              , a leading sports platform for real-time scores, live reactions,
-              and premium sports content.
+              , a sports platform for real-time scores, live reactions, and
+              premium sports content;{' '}
+              <a href="https://gamecastt.com" target="_blank">
+                Gamecast
+              </a>
+              , a real-time sports API; and{' '}
+              <a href="https://sysg.dev">SystemG</a>, an open-source process
+              manager designed to simplify and streamline development workflows.
             </Text>
             <Text
               sx={{
@@ -299,17 +308,6 @@ const IndexView: React.FC = (): React.JSX.Element => {
                 fontSize: 14,
               }}
             >
-              In July 2025, Rashad founded{' '}
-              <a href="https://esperr.com" target="_blank">
-                Esper
-              </a>
-              , a programmable traffic protection platform headquartered in Los
-              Angeles, California. Esper helps teams detect and stop harmful
-              traffic using the business context generic bot tools miss, with
-              custom abuse logic across users, accounts, API keys, sessions,
-              resources, and behavior over time.
-              <br />
-              <br />
               In 2024, Rashad founded the{' '}
               <a href="https://eljff.org" target="_blank">
                 Ether Lean Josephine Family Foundation (ELJFF)
